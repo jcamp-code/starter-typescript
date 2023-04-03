@@ -1,2 +1,3 @@
-// eslint-disable-next-line no-console
-console.log('test')
+export function testAdd(digit: number, second: number): number {
+  return digit + second
+}

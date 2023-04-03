@@ -1,8 +1,37 @@
 {
   "name": "@jcamp/npm-package-repo-template",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
-  "repository": "https://github.com/jcamp-code/npm-package-repo-template",
+  "description": "Starter repo for building NPM packages",
+  "author": "John Campion",
+  "license": "MIT",
+  "homepage": "https://github.com/jcamp-code/npm-package-repo-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcamp-code/npm-package-repo-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcamp-code/npm-package-repo-template/issues"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "starter",
+    "vitest"
+  ],
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
@@ -10,6 +39,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --check --write .",
     "postinstall": "npx simple-git-hooks",
+    "test": "vitest run",
     "release": "pnpm changelogen --release --push && pnpm publish",
     "release:minor": "pnpm changelogen --release --minor --push && pnpm publish",
     "release:major": "pnpm changelogen --release --major --push && pnpm publish",
@@ -24,6 +54,8 @@
     "lint-staged": "^13.2.0",
     "prettier": "2.8.7",
     "simple-git-hooks": "^2.8.1",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.8"
   }
 }
