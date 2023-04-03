@@ -1,0 +1,29 @@
+{
+  "name": "@jcamp/test",
+  "version": "0.0.3",
+  "private": true,
+  "repository": "https://github.com/jcamp-test/learn-changelog",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check --write .",
+    "postinstall": "npx simple-git-hooks",
+    "release": "pnpm changelogen --release --push && pnpm publish",
+    "release:minor": "pnpm changelogen --release --minor --push && pnpm publish",
+    "release:major": "pnpm changelogen --release --major --push && pnpm publish",
+    "release:patch": "pnpm changelogen --release --patch --push && pnpm publish"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@jcamp/eslint-config": "0.5.0",
+    "changelogen": "^0.5.2",
+    "eslint": "8.37.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "2.8.7",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^5.0.3"
+  }
+}
