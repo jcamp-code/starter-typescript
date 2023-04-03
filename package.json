@@ -1,6 +1,6 @@
 {
   "name": "@jcamp/npm-package-repo-template",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "repository": "https://github.com/jcamp-code/npm-package-repo-template",
   "scripts": {
