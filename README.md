@@ -1,6 +1,6 @@
-# learn-changelog
+# npm-package-repo-template
 
-working on setting up empty repo for easy start for future projects
+Setup an empty repo for TypeScript / NPM packages for an easy start for future projects.
 
 # Integrations
 

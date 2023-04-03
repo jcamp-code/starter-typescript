@@ -1,8 +1,8 @@
 {
-  "name": "@jcamp/test",
-  "version": "0.0.3",
+  "name": "@jcamp/npm-package-repo-template",
+  "version": "0.0.0",
   "private": true,
-  "repository": "https://github.com/jcamp-test/learn-changelog",
+  "repository": "https://github.com/jcamp-code/npm-package-repo-template",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
