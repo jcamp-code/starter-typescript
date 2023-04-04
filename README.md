@@ -1,4 +1,4 @@
-# npm-package-repo-template
+# @jcamp/starter-typescript
 
 Setup an empty repo for TypeScript / NPM packages for an easy start for future projects.
 
@@ -34,6 +34,10 @@ Standardized code formatting
 ## [Netlify](https://www.netlify.com)
 
 Standard deploy file (obviously delete if not needed)
+
+## [Unbuild](https://github.com/unjs/unbuild)
+
+Easy to use unified build system
 
 # Workflow
 
