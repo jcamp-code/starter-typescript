@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.2.1
+
+[compare changes](https://github.com/jcamp-code/starter-typescript/compare/v0.2.0...v0.2.1)
+
+### 🩹 Fixes
+
+- Changed defaults for export ([9352911](https://github.com/jcamp-code/starter-typescript/commit/9352911))
+
+### ❤️ Contributors
+
+- John Campion <john@brightshore.com>
+
 ## v0.2.0
 
 [compare changes](https://github.com/jcamp-code/starter-typescript/compare/v0.1.0...v0.2.0)
