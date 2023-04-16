@@ -51,7 +51,7 @@
     "@commitlint/cli": "^17.6.1",
     "@jcamp/eslint-config": "0.6.1",
     "changelogen": "^0.5.3",
-    "commitlint-config-unjs": "^1.0.0",
+    "commitlint-config-unjs": "^1.0.1",
     "eslint": "^8.38.0",
     "lint-staged": "^13.2.1",
     "prettier": "2.8.7",
