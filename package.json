@@ -48,9 +48,9 @@
     "release:patch": "changelogen --release --patch --push && pnpm publish"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.1",
+    "@commitlint/cli": "^17.6.1",
     "@jcamp/eslint-config": "0.6.1",
-    "changelogen": "^0.5.2",
+    "changelogen": "^0.5.3",
     "commitlint-config-unjs": "^1.0.0",
     "eslint": "^8.38.0",
     "lint-staged": "^13.2.1",
@@ -58,6 +58,6 @@
     "simple-git-hooks": "^2.8.1",
     "typescript": "^5.0.4",
     "vite": "^4.2.1",
-    "vitest": "^0.29.8"
+    "vitest": "^0.30.1"
   }
 }
