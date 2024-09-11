@@ -48,7 +48,7 @@
     "release:patch": "changelogen --release --patch --push && pnpm publish"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
+    "@commitlint/cli": "^19.5.0",
     "@jcamp/eslint-config": "0.7.1",
     "changelogen": "^0.5.4",
     "commitlint-config-unjs": "^1.0.1",
